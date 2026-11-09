@@ -56,35 +56,43 @@ export default function App() {
   ];
 
   return <main>
-    <div className="topbar"><span><Icon name="globe" size={15}/> INGLÊS PARA VIAGENS</span><span>APOSTILA DIGITAL • ACESSO EM PDF</span></div>
+    <div className="topbar"><span>APOSTILA EM PDF COM ACESSO IMEDIATO APÓS O PAGAMENTO</span></div>
 
     <section className="hero">
       <div className="hero-inner">
         <div className="hero-copy">
-          <div className="pill"><span className="pill-dot"/> PARA QUEM QUER VIAJAR COM MAIS CONFIANÇA</div>
-          <h1>Viaje para o exterior sabendo <em>o que falar</em> em inglês.</h1>
-          <p className="hero-lead">Mesmo sem dominar o idioma: tenha frases prontas, tradução e a pronúncia escrita do jeito que se fala em português.</p>
-          <div className="hero-points">
-            <span><Icon name="check" size={17}/> 500 frases essenciais para viajar</span>
-            <span><Icon name="check" size={17}/> Tradução em português</span>
-            <span><Icon name="check" size={17}/> Pronúncia escrita para praticar</span>
-          </div>
-          <BuyLink>QUERO VIAJAR MAIS PREPARADO</BuyLink>
-          <div className="secure-note"><Icon name="shield" size={15}/> Pagamento único • Material digital em PDF</div>
+          <div className="hero-kicker">GUIA PRÁTICO PARA SUA PRÓXIMA VIAGEM</div>
+          <h1>VIAJE PARA O EXTERIOR COM FRASES PRONTAS E A <em>PRONÚNCIA ESCRITA</em> DO JEITO QUE SE FALA</h1>
+          <p className="hero-lead">500 frases essenciais para viajar, cada uma com tradução e a pronúncia em letras do português. É só ler em voz alta e praticar!</p>
+          <div className="hero-price"><div className="price-big"><small>R$</small>27,90</div><div><b>Pagamento único</b><span>PDF no seu e-mail</span></div></div>
+          <BuyLink>QUERO MINHA APOSTILA POR R$ 27,90</BuyLink>
+          <div className="secure-note"><Icon name="shield" size={15}/> Compra segura • Pagamento único • Acesso em PDF</div>
+          <div className="hero-stats"><span>500 frases</span><span>10 módulos</span><span>Tradução + pronúncia</span></div>
         </div>
-        <div className="hero-art" aria-label="Ilustração de passaporte, cartão de embarque e guia de inglês">
-          <div className="orbit orbit-one"/><div className="orbit orbit-two"/>
-          <div className="floating-stamp"><Icon name="plane" size={22}/><span>READY<br/>TO GO</span></div>
-          <div className="passport">
-            <div className="passport-top">PASSPORT</div><div className="passport-globe"><Icon name="globe" size={58}/></div>
-            <div className="passport-bottom">TRAVEL DOCUMENT</div>
+        <div className="hero-art" aria-label="Mockup da apostila Inglês para Viagens em livro digital e celular">
+          <div className="travel-stamp"><Icon name="plane" size={23}/><b>LET'S<br/>TRAVEL</b></div>
+          <div className="ebook-cover">
+            <div className="cover-stars">✦ ✦ ✦ ✦ ✦<br/>✦ ✦ ✦ ✦</div>
+            <div className="cover-title">INGLÊS<br/><strong>PARA<br/>VIAGENS</strong></div>
+            <div className="cover-subtitle">500 FRASES • TRADUÇÃO<br/>• PRONÚNCIA EM PORTUGUÊS</div>
+            <div className="cover-plane"><Icon name="plane" size={48}/></div>
+            <div className="cover-band">TRAVEL ENGLISH GUIDE</div>
           </div>
-          <div className="boarding">
-            <div className="boarding-label">BOARDING PASS</div><div className="boarding-route"><strong>YOU</strong><span>✈</span><strong>WORLD</strong></div>
-            <div className="boarding-lines"><i/><i/><i/></div><small>YOUR NEXT ADVENTURE STARTS HERE</small>
+          <div className="phone-mockup">
+            <div className="phone-speaker"/>
+            <div className="phone-screen">
+              <b className="phone-heading">Inglês para Viagens.pdf</b>
+              <div className="phone-section">NO AEROPORTO</div>
+              <div className="phone-row"><b>Where is the gate?</b><i>uér iz dhâ gueit?</i><span>Onde fica o portão?</span></div>
+              <div className="phone-row"><b>I have a reservation.</b><i>ai rév â rézâr-vêi-shân</i><span>Eu tenho uma reserva.</span></div>
+              <div className="phone-section">NO HOTEL</div>
+              <div className="phone-row"><b>Can I check in?</b><i>kén ai tchék in?</i><span>Posso fazer check-in?</span></div>
+              <div className="phone-row"><b>What time is breakfast?</b><i>uót táim iz brékfâst?</i><span>Que horas é o café?</span></div>
+              <div className="phone-section">NO RESTAURANTE</div>
+              <div className="phone-row"><b>Can I see the menu?</b><i>kén ai sí dhâ méniu?</i><span>Posso ver o cardápio?</span></div>
+            </div>
           </div>
-          <div className="speech-card"><b>Excuse me...</b><span>Com licença...</span><small>ik-SKIUZ mi</small></div>
-          <div className="art-caption">ENGLISH MADE SIMPLE</div>
+          <div className="boarding-mini"><span>BOARDING PASS</span><b>BRASIL <i>✈</i> WORLD</b><small>YOUR NEXT ADVENTURE</small></div>
         </div>
       </div>
       <div className="hero-wave"/>
